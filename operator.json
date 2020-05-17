@@ -1,0 +1,10 @@
+
+{
+  "name": "MinMaxNormalisation",
+  "description": "Normalise your data using MinMax per cell",
+  "tags": ["basic statistics"],
+  "authors": ["swtimmer"],
+  "urls": ["https://github.com/swtimmer/tercen_minmax/"],
+  "properties": []
+}
+
