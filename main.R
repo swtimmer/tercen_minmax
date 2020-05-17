@@ -10,6 +10,6 @@ min_max_norm <- function(x) {
 (ctx = tercenCtx())  %>% 
   select(.y, .ci, .ri) %>% 
   group_by(.ci, .ri) %>%
-  summarise(minmax = min_max_norm(.y)) %>%
+  min_max_norm(.y) %>%
   ctx$addNamespace() %>%
   ctx$save()
